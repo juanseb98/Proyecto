@@ -245,14 +245,15 @@
         </Constraint>
       </Constraints>
     </Component>
-    <Component class="imagenview.ImageView" name="imageView1">
+    <Component class="javax.swing.JLabel" name="fondo">
       <Properties>
-        <Property name="scale" type="double" value="1.2"/>
-        <Property name="urlImagen" type="java.lang.String" value="https://d2giyh01gjb6fi.cloudfront.net/images/special_campaign/blackfriday_2018/header-bg_v1.jpg"/>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/img/header-bg_v1.jpg"/>
+        </Property>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="0" y="-30" width="880" height="500"/>
+          <AbsoluteConstraints x="0" y="0" width="880" height="440"/>
         </Constraint>
       </Constraints>
     </Component>

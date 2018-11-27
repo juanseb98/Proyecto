@@ -139,7 +139,7 @@ public class Proyecto extends javax.swing.JFrame {
         jScrollPane3 = new javax.swing.JScrollPane();
         jTableIzquierdo = new javax.swing.JTable();
         jButtonSalir = new javax.swing.JButton();
-        imageView1 = new imagenview.ImageView();
+        fondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -263,9 +263,8 @@ public class Proyecto extends javax.swing.JFrame {
         jButtonSalir.setText("Salir");
         getContentPane().add(jButtonSalir, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 20, -1, -1));
 
-        imageView1.setScale(1.2);
-        imageView1.setUrlImagen("https://d2giyh01gjb6fi.cloudfront.net/images/special_campaign/blackfriday_2018/header-bg_v1.jpg");
-        getContentPane().add(imageView1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -30, 880, 500));
+        fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/header-bg_v1.jpg"))); // NOI18N
+        getContentPane().add(fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 880, 440));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -311,7 +310,7 @@ public class Proyecto extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> cbMarcaIzquierdo;
     private javax.swing.JComboBox<String> cbModeloDerecho;
     private javax.swing.JComboBox<String> cbModeloIzquierdo;
-    private imagenview.ImageView imageView1;
+    private javax.swing.JLabel fondo;
     private imagenview.ImageView imagenDerecha;
     private imagenview.ImageView imagenIzquierda;
     private javax.swing.JButton jButtonSalir;
